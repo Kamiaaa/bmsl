@@ -123,7 +123,7 @@ export default function HeroCarousel() {
 
     return (
         <div
-            className={`relative w-full h-48 md:h-[80vh] overflow-hidden ${styles.bgLinearToR}`}
+            className={`relative w-full h-48 md:h-[80vh] overflow-hidden mt-16 ${styles.bgLinearToR}`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
