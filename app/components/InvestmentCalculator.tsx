@@ -3,7 +3,7 @@ import Image from "next/image";
 const InvestmentCalculator: React.FC = () => {
     return (
         <div id="calculator" className="relative bg-white dark:bg-gray-900 overflow-hidden my-16">
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-7xl mx-auto">
                 <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 
                     {/* SVG Shape */}
