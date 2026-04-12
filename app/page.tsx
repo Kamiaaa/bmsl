@@ -13,7 +13,7 @@ export default function Home() {
       <HeroCarousel/>
       <FinancialProducts/>
       <EasyTrade/>
-      <InvestmentCalculator />
+      
       <Commissions/>
     </>
   );
