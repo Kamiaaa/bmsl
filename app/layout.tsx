@@ -37,7 +37,7 @@ export default function RootLayout({
           {children}
           <StickyDarkModeToggle/>
           <ScrollToTop />
-          
+          <Footer />
         </div>
       </body>
     </html>

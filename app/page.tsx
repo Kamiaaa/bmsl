@@ -14,7 +14,7 @@ export default function Home() {
       <FinancialProducts/>
       <EasyTrade/>
       <InvestmentCalculator />
-      
+      <Commissions/>
     </>
   );
 }
