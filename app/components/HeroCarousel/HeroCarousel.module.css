@@ -1,0 +1,57 @@
+/* Slide Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animateFadeInUp {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animateSlideInLeft {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animationDelay100 {
+  animation-delay: 0.1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animationDelay200 {
+  animation-delay: 0.2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.animationDelay300 {
+  animation-delay: 0.3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* Background gradients */
+.bgLinearToR {
+  background: linear-gradient(to right, #315543, #6A957A);
+}
+
+.bgLinearToT {
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.6), transparent);
+}
